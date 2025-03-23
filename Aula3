@@ -64,3 +64,115 @@
 #     else:
 #         break
 # print(f"A média das notas digitadas é {soma/count:.2f}")
+
+# soma=0
+# num=1
+# while soma<=50:
+#     soma+=num
+#     num+=1
+# print(soma)
+
+# valor_valido=6
+# num=None
+# while num!=valor_valido:
+#     num=int(input("Digite um número de 1 a 10: "))
+#     if num==valor_valido:
+#         print("Número válido correto!")
+#         break
+#     else:
+#         print("Número inválido! Tente novamente")
+
+# senha="1234senha"
+# tentativa=None
+# while tentativa!=senha:
+#     tentativa=input("Digite a senha: ")
+#     if tentativa==senha:
+#         print("Senha correta! Acesso concedido.")
+#         break
+#     else:
+#         print("Senha incorreta. Tente novamente.")
+
+# numero_secreto=7
+# tentativas_totais=3
+# jogador1_tentativas=0
+# jogador2_tentativas=0
+# while jogador1_tentativas<tentativas_totais and jogador2_tentativas<tentativas_totais:
+#     palpite1=int(input("Jogador 1, adivinhe o número: "))
+#     jogador1_tentativas+=1
+#     if palpite1==numero_secreto:
+#         print("Jogador 1 acertou!")
+#         break
+#     else:
+#         print("Jogador 1 errou.")
+    
+#     palpite2=int(input("Jogador 2, adivinhe o número: "))
+#     jogador2_tentativas+=1
+#     if palpite2==numero_secreto:
+#         print("Jogador 2 acertou!")
+#         break
+#     else:
+#         print("Jogador 2 errou.")
+# else:
+#     print("Ninguém acertou o número secreto!")
+
+# while True:
+#     print("Menu: ")
+#     print("1. Diga Olá")
+#     print("2. Diga Adeus")
+#     print("Digite 'sair' para terminar o programa.")
+
+#     opcao=input("Escolha uma opção: ")
+#     if opcao=="1":
+#         print("Olá!")
+#     elif opcao=="2":
+#         print("Adeus!")
+#     elif opcao.lower()=="sair":
+#         print("Encerrando o programa.")
+#         break
+#     else:
+#         print("Opção inválida, tente novamente.")
+
+# soma=0
+# num=1
+# while num<=100:
+#     if num%2==0:
+#         soma+=num
+#     num+=1
+# print(f"A soma dos números pares de 1 a 100 é {soma}")
+
+# num=1
+# while num<=50:
+#     if num%2!=0:
+#         print(num)
+#     num+=1
+
+# n=0
+# x=0
+# y=1
+# while n<20:
+#     x,y=y,x+y
+#     n+=1
+#     print(y)
+
+# num=int(input("Digite um número: "))
+# count=1
+# fatorial=1
+# while count<=num:
+#     fatorial*=count
+#     count+=1
+# print(f"O fatorial de {num} é {fatorial}")
+
+# num1=int(input("Digite um número: "))
+# num2=int(input("Digite outro número: "))
+# count=0
+# while num1>num2 or num2>num1:
+
+#Contagem regressiva com verificacao
+# num=int(input("Digite um número: "))
+# while num>0:
+#     if num%2==0:
+#         print(f"{num}: Número par")
+#         num-=1
+#     else:
+#         print(num)
+#         num-=1

@@ -177,3 +177,16 @@
 #     else:
 #         print(num)
 #         num-=1
+
+# #Adivinhar Número
+# import random
+# numero_aleatorio=random.randint(1,100)
+# while True:
+#     tentativa=int(input("Adivinhe o número: "))
+#     if tentativa==numero_aleatorio:
+#         print("Parabéns! Você acertou o número!")
+#         break
+#     elif tentativa<numero_aleatorio:
+#         print("Muito baixo")
+#     elif tentativa>numero_aleatorio:
+#         print("Muito alto")

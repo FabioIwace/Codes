@@ -1,0 +1,43 @@
+# for i in range(5):
+#     print(i)
+
+# palavra="Python"
+# for letra in palavra:
+#     print(letra)
+
+# num=int(input("Digite um número de 1 a 10: "))
+# for i in range(1,11):
+#     print(f"{num}x{i}={i*num}")
+
+# soma=0
+# for i in range(1,101):
+#     soma+=i
+# print(f"A soma de todos os números de 1 a 100 é {soma}")
+
+# palavra=input("Digite uma palavra: ")
+# for i in palavra:
+#     print(i)
+
+# count=10
+# for i in range(1,11):
+#     print(count)
+#     count-=1
+# print("Feliz Ano Novo!")
+
+# texto="Programação em Python"
+# count=0
+# for caractere in texto:
+#     if caractere.lower() in "aeiou":
+#         count+=1
+# print(f"Número de vogais: {count}")
+
+# count1=0
+# count2=0
+# for num in range(1,11):
+#     var=int(input("Digite um número: "))
+#     if var>0:
+#         count1+=1
+#     else:
+#         count2+=1
+# print(f"Quantidade de números positivos: {count1}")
+# print(f"Quantidade de números negativos: {count2}")

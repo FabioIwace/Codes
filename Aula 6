@@ -13,3 +13,47 @@
 # taxa=float(input("Digite a taxa de juros ao ano: "))
 # tempo=float(input("Digite o tempo em anos: "))
 # juros=print(f"O juros simples é {capital*(taxa/100)*tempo}")
+
+# nota1=float(input("Digite a primeira nota: "))
+# nota2=float(input("Digite a segunda nota: "))
+# nota3=float(input("Digite a terceira nota: "))
+# nota4=float(input("Digite a quarta nota: "))
+# media=(nota1+nota2+nota3+nota4)/4
+# print(f"A média das quatro notas é {media}")
+# if media>=6:
+#     print("Aprovado")
+# else:
+#     print("Reprovado")
+
+
+# preco=float(input("Digite o preço do produto: "))
+# desconto=float(input("Digite o desconto a ser aplicado: "))
+# final=print(f"O preço do produto com desconto de {desconto}% é {preco-(preco*(desconto/100))}")
+
+
+# tempo=float(input("Digite o tempo em segundos: "))
+# hora=tempo/3600
+# minuto=tempo/60
+# final=print(f"O tempo digitado equivale a {hora:.2f} horas, {minuto:.2f} minutos ou {tempo} segundos")
+
+
+# horas = int(input("Digite a quantidade de horas: "))
+# minutos=int(input("Digite a quantidade de minutos: "))
+# segundos=int(input("Digite a quantidade de segundos: "))
+# segundos_totais=(horas*3600)+(minutos*60)+segundos
+# print(segundos_totais)
+
+
+# nota=int(input("Digite uma nota de 0 a 100: "))
+# if nota==0:
+#     print("Conceito F")
+# elif nota >0 and nota <=25:
+#     print("Conceito D")
+# elif nota>25 and nota<=50:
+#     print("Conceito C")
+# elif nota>50 and nota<=85:
+#     print("Conceito B")
+# elif nota>85:
+#     print("Conceito A")
+# else:
+#     print("Nota inválida")

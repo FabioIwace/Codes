@@ -1,0 +1,15 @@
+# var=float(input("Digite um valor em metros: "))
+# saida=print(f"O valor de {var} em centímetros é {var*100} cm")
+
+# largura=float(input("Digite o valor da largura do retângulo: "))
+# altura=float(input("Digite o valor da altura do retângulo: "))
+# area=print(f"O valor da área do retângulo é {largura*altura}")
+
+# peso=float(input("Digite o seu peso em kilogramas: "))
+# altura=float(input("Digite a sua altura em metros: "))
+# imc=print(f"O valor do seu IMC é {peso/(altura**2):.2f}")
+
+# capital=float(input("Digite o capital inicial: "))
+# taxa=float(input("Digite a taxa de juros ao ano: "))
+# tempo=float(input("Digite o tempo em anos: "))
+# juros=print(f"O juros simples é {capital*(taxa/100)*tempo}")

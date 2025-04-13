@@ -1,0 +1,64 @@
+# for num in range(2,20):
+#     for i in range(2,num):
+#         if num%i==0:
+#             #Não é um número primo, pular para o próximo
+#             break
+#     else:
+#         #Chegou aqui apenas se não houve break no loop interno
+#         print(f'{num} é um número primo!')
+
+#Atividade Prática 1
+# lista=[1,2,3,4,5]
+# print(lista)
+
+#Atividade Prática 2
+# lista=['a','e','i','o','u']
+# print(lista)
+
+#Atividade Prática 3
+# lista=[1,True,'Pedro',45,'a']
+# print(lista[2])
+
+# lista_compras=[
+#     "2 pcts. de Arroz",
+#     "6 pcts. de Feijão",
+#     "2 pcts. de Farinha de Mandioca",
+#     "4kg de Linguiça Calabresa",
+#     "4kg de Charque",
+#     "2kg de Bacon de Barriga",
+#     "2kg de Pé e Orelha de porco",
+#     "1 pct de folha de louro",
+#     "6 mói de couve",
+#     "5kg de laranja"
+# ]
+# print("LISTA DE COMPRAS", end='\n\n')
+# for item in lista_compras:
+#     print("[  ]", item)
+
+# frutas=('maçã','banana','laranja','abacaxi')
+# indice_laranja=frutas.index('laranja')
+# print("Indice da laranja: ", indice_laranja)
+# quantidade_bananas=frutas.count("banana")
+# print("Quantidade de bananas: ",quantidade_bananas)
+# maca,banana,laranja,abacaxi=frutas
+# print("Fruta 1: ", maca)
+# print("Fruta 2: ", banana)
+# print("Fruta 3: ", laranja)
+# print("Fruta 4: ", abacaxi)
+
+#Atividade Prática 4
+# tupla=(['Pedro','Tema Futebol','Nacional'],['Clarice','Tema Gatos','Mundial'],['Helena','Tema Capivaras','Brasil'])
+# print(tupla[2])
+
+#Desafio Prático
+lista_resultados=[]
+num_equipes=int(input("Digite o número de equipes que deseja cadastrar as pontuações: "))
+for i in range(num_equipes):
+    nome=input("Digite o nome da equipe: ")
+    pontuacoes=[]
+    num_rodadas=int(input(f'Quantas rodadas a equipe {nome} participou? '))
+    for j in range(num_rodadas):
+        pontuacao=float(input(f"Digite a pontuação da rodada {j+1} para a equipe {nome}: "))
+        pontuacoes.append(pontuacao)
+    lista_resultados.append((nome, pontuacoes))
+print(lista_resultados)

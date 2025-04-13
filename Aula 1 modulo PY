@@ -62,3 +62,15 @@ for i in range(num_equipes):
         pontuacoes.append(pontuacao)
     lista_resultados.append((nome, pontuacoes))
 print(lista_resultados)
+medias = []
+for equipe, pontuacoes in lista_resultados:
+    media = sum(pontuacoes) / len(pontuacoes)
+    medias.append((equipe, media))
+
+# Ordenar pela média (decrescente)
+classificacao = sorted(medias, key=lambda x: x[1], reverse=True)
+
+# Mostrar o resultado final
+print("\nClassificação Final:")
+for i, (equipe, media) in enumerate(classificacao, start=1):
+    print(f"{i}º lugar: {equipe} - Média: {media:.2f}")

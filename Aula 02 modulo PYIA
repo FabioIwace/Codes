@@ -1,0 +1,277 @@
+# set1={letra for letra in 'infinity'if letra not in 'aeiou'}
+# print(set1)
+
+# set1=set(['Infinity','School','202...'])
+# print(set1)
+
+# convidados={'Joao','Maria','Eduarda'}
+# convidados.add('Marcela')
+# print(convidados)
+
+# ids={10,11,12,13,14}
+# novos_ids={15,16,17}
+# ids.update(novos_ids)
+# print(ids)
+
+# convidados={'Joao','Maria','Pedro'}
+# print('Maria' in convidados)
+
+# convidados={'Pedro','Clarice','Helena','Tia Lu'}
+# for x in convidados:
+#     print(x)
+
+# convidados={'Pedro','Clarice','Helena'}
+# convidados.remove('Pedro')
+# convidados.discard('Clarice')
+# print(convidados)
+
+# convidados={'Pedro','Clarice','Helena'}
+# convidados2={'Tia Lu','Marina','Mateus','Helena'}
+# print(convidados.intersection(convidados2))
+
+# convidados={'Pedro','Clarice','Helena'}
+# convidados2={'Pedro','Marina','Mateus'}
+# convidados.intersection_update(convidados2)
+# print(convidados)
+
+# convidados = {'Pedro','Clarice','Helena'}
+# convidados2 = {'Tia Lu','Pedro','Marina','Mateus'}
+# print(convidados.union(convidados2))
+# print(convidados|convidados2)
+
+# Atividade Pratica 1
+# frutas=set()
+# frutas.add('maçã')
+# frutas.add('banana')
+# frutas.add('uva')
+# frutas.add('laranja')
+# frutas.add('morango')
+# print(frutas)
+
+#Atividade Pratica 2
+# frutas=set()
+# frutas.add('maçã')
+# frutas.add('banana')
+# frutas.add('uva')
+# frutas.add('laranja')
+# frutas.add('morango')
+# print('banana' in frutas)
+
+#Atividade Pratica 3
+# frutas_vermelhas=set()
+# frutas_vermelhas.add('morango')
+# frutas_vermelhas.add('cereja')
+# frutas_vermelhas.add('framboesa')
+# print(frutas_vermelhas)
+
+#Atividade Pratica 4
+# frutas_vermelhas=set()
+# frutas_vermelhas.add('morango')
+# frutas_vermelhas.add('cereja')
+# frutas_vermelhas.add('framboesa')
+# frutas_vermelhas.remove('cereja')
+# print(frutas_vermelhas)
+
+#Atividade Pratica 5
+# A={1,2,3}
+# B={2,4,5}
+# print(A.union(B))
+
+#Atividade Pratica 6
+#Programa que recebe dois conjuntos e exibe a interseção deles
+# conjunto1=set()
+# conjunto2=set()
+# quantidade1=int(input('Quantos elementos possui o conjunto 1?  '))
+# for i in range(quantidade1):
+#     elementos1=input('Digite um elemento do conjunto 1: ')
+#     conjunto1.add(elementos1)
+
+# quantidade2=int(input('Quantos elementos possui o conjunto 2? '))
+# for j in range(quantidade2):
+#     elementos2=input('Digite um elemento do conjunto 2: ')
+#     conjunto2.add(elementos2)
+
+# print(f'A interseção dos conjuntos é {conjunto1.intersection(conjunto2)}')
+
+#Atividade Pratica 7
+#Programa que recebe duas listas e calcula a união dos elementos únicos dessas listas, usando conjuntos
+# lista1=[1,2,3,'Pedro',True]
+# lista2=[1,4,6]
+# conjunto1=set(lista1) #True é considerado igual a 1 em operações de conjuntos
+# conjunto2=set(lista2)
+# print(conjunto1.union(conjunto2))
+
+# dicionario={}
+# dicionario=dict()
+# dicionario=dict([('Modulo','Python'),('Instituicao','Infinity School')])
+# dicionario=dict(Modulo='Python', Instituicao='Infinity School')
+
+# dicionario={elemento: f'Valor {elemento}' for elemento in range(6)}
+# print(dicionario)
+
+# linguagens = {
+#     'Programacao01':'Python',
+#     'Programacao02':'JavaScript',
+#     'Programacao03':'PHP'
+# }
+# for i in linguagens.items():
+#     print(i)
+
+# linguagens = {
+#     'Programacao01':'Python',
+#     'Programacao02':'JavaScript',
+#     'Programacao03':'PHP'
+# }
+# for chave,valor in linguagens.items():
+#     print(f'Olá {chave},{valor}')
+
+# dados_usuario={
+#     'Nome':'Pedro',
+#     'Idade':11,
+#     'Cidade':'Uberlandia'
+# }
+# # print(dados_usuario['Idade'])
+# print(dados_usuario.get('Nome'))
+
+#Atividade Pratica 8
+# pessoas={
+#    'Pessoa1':['Pedro',11],
+#    'Pessoa2':['Clarice',8],
+#    'Pessoa3':['Helena',8] 
+# }
+# for chave, dados in pessoas.items():
+#     nome=dados[0]
+#     idade=dados[1]
+#     print(f'{chave} - Nome: {nome}, Idade: {idade}')
+    
+#Atividade Pratica 9
+# dicionario = {
+#     'Nome':'Pedro',
+#     'Idade': 11,
+#     'Cidade': 'Uberlândia'
+# }
+# for i in dicionario.items():
+#     print(i)
+# for i in dicionario.keys():
+#     print(i)
+# for j in dicionario.values():
+#     print(j)
+
+#Atividade Pratica 10
+# dicionario={
+#     'Nome': 'Pedro',
+#     'Idade': 11,
+#     'Cidade': 'Uberlândia'
+# }
+# chave=input('Digite uma chave para o dicionário: ')
+# valor=input('Digite um valor para a chave digitada: ')
+# dicionario[chave]=valor
+# print(dicionario)
+
+#Atividade Pratica 11
+# dicionario={
+#     'Nome': 'Pedro',
+#     'Idade': 11,
+#     'Cidade': 'Uberlândia',
+#     'Esporte': 'Natação'
+# }
+# lista_chaves=['Nome','Idade','Hobby','Endereço','Esporte'] # Lista criada aleatoriamente
+# lista_chaves=list()
+# quantidade=int(input('Digite a quantidade de chaves que deseja inlcuir na lista: '))
+# for i in range(quantidade):
+#     chave=input('Digite a chave: ')
+#     lista_chaves.append(chave)
+# for j in range(quantidade):
+#     if lista_chaves[j] in dicionario:
+#         print(f'True: a chave {lista_chaves[j]} existe no dicionário')
+#     else:
+#         print(f'False: a chave {lista_chaves[j]} não existe no dicionário')
+
+#Atividade Pratica 12
+#Programa que simula um sistema de votação
+
+# resultados={
+#     'Opcao1':0,
+#     'Opcao2':0,
+#     'Opcao3':0
+# }
+# while True:
+#     opcao=int(input('Digite uma opção: 0 - Para encerrar e exibir os resultados finais. 1 - Para votar '))
+#     if opcao == 0:
+#         break
+#     elif opcao == 1:
+#         for i, chave in enumerate(resultados,1):
+#             print(f'{i}. {chave}')
+#         voto=int(input('Escolha o número do seu candidato: '))
+#         if voto==1:
+#             resultados['Opcao1']+=1
+#         elif voto==2:
+#             resultados['Opcao2']+=1
+#         elif voto==3:
+#             resultados['Opcao3']+=1
+#         else:
+#             print('Opção Inválida')
+#     else:
+#         print('Opção Inválida')
+# print('Resultado Final')
+# for candidato,votos in resultados.items():
+#     print(f'{candidato}: {votos} votos')
+
+#Atividade Pratica 13
+# disciplina={
+#     'Aluno1':10,
+#     'Aluno2':9.5,
+#     'Aluno3':8.8,
+#     'Aluno4':9.5
+# }
+# media = sum(disciplina.values())/len(disciplina)
+# print(f'A média das notas dos alunos na disciplina é {media}')
+
+#Atividade Pratica 14
+# lista_original=[1,2,3,4,1,2,6,11,12,8,4,5,6]
+# lista_nova=set(lista_original)
+# print(f'A lista original é {lista_original}')
+# print(f'A lista sem duplicatas é {lista_nova}')
+
+#Atividade Pratica 15
+# A={1,2,3,4,5,6}
+# B={11,56,78,99}
+# C={1.1,9.9,2.31,4.56}
+# uniao=A.union(B,C)
+# print(f'O conjunto resultante é {uniao}')
+
+#Desafio Pratico
+#Sistema de cadastro de Alunos
+# cadastro_alunos={}
+# while True:
+#     opcao=int(input('Digite uma opção: 1- Para cadastrar um aluno e notas. 2- Visualizar o cadastro. 3- Para sair. '))
+#     if opcao==1:
+#         nome=input('Digite o nome do aluno(a): ')
+#         idade=int(input(f'Digite a idade de {nome}: '))
+#         nota_matematica=float(input(f'Digite a nota de {nome} em Matemática: '))
+#         nota_ciencias=float(input(f'Digite a nota de {nome} em Ciências: '))
+#         nota_historia=float(input(f'Digite a nota de {nome} em História: '))
+        
+#         notas=(nota_matematica,nota_ciencias,nota_historia)
+        
+#         cadastro_alunos[nome]={
+#             'Nome': nome,
+#             'Idade': idade,
+#             'Notas': notas
+#         }
+#     elif opcao==2:
+#         if cadastro_alunos:
+#             print('Alunos cadastrados: ')
+#             for aluno, info in cadastro_alunos.items():
+#                 media=sum(info['Notas'])/3
+#                 print(f"Nome: {info['Nome']}, Idade:{info['Idade']}, Notas: {info['Notas']}, Média: {media:.2f}")
+#             maior_media=max(cadastro_alunos.items(),key=lambda item:sum(item[1]['Notas'])/3)
+#             nome_maior=maior_media[0]
+#             media_maior=sum(maior_media[1]['Notas'])/3
+#             print(f'O aluno com a maior média é {nome_maior} com média {media_maior:.2f}')
+#         else:
+#             print("Nenhum aluno(a) cadastrado ainda.")       
+#     elif opcao==3:
+#         break
+#     else:
+#         print('Opção Inválida')
